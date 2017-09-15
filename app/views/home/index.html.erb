@@ -1,0 +1,22 @@
+<h1 class="text-center">List of data</h1>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Last Name</th>
+    <th>Sales</th>
+    <th>Country</th>
+    <th>Quarter</th>
+  </tr>
+  </thead>
+  <tbody>
+    <% @excels.each do |excel| %>
+        <tr>
+          <td><%= excel.name %></td>
+          <td><%= excel.sales %></td>
+          <td><%= excel.country %></td>
+          <td><%= excel.quarter %></td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>

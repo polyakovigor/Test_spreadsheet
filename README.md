@@ -1,24 +1,6 @@
-# README
+# Spreadsheet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails-App based on ["Roo" gem](https://github.com/roo-rb/roo) for parsing excel documents.
 
-Things you may want to cover:
+![Example](app/assets/images/Spreadsheet.png)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
